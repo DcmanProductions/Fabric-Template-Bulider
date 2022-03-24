@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "oWwOlxgw9ygfGY3j5A8Mv/ta1gvWxAB/gX7Fxe4cDReuosCb2vh6Tt4l2UDaDLa1hDN7eLTpKJrm7iX2I5C++A==",
+  "success": true,
+  "projectFilePath": "D:\\Workspace\\Visual Studio Workspace\\C++\\Desktop App\\FabricTemplateBuilder\\FabricTemplateBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\drew_\\.nuget\\packages\\chaselabs.configuration\\0.1.4\\chaselabs.configuration.0.1.4.nupkg.sha512",
+    "C:\\Users\\drew_\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\drew_\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\drew_\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.3\\microsoft.netcore.app.runtime.win-x64.6.0.3.nupkg.sha512",
+    "C:\\Users\\drew_\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.3.nupkg.sha512",
+    "C:\\Users\\drew_\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.3\\microsoft.aspnetcore.app.runtime.win-x64.6.0.3.nupkg.sha512",
+    "C:\\Users\\drew_\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.3\\microsoft.netcore.app.crossgen2.win-x64.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
