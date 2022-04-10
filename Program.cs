@@ -41,11 +41,7 @@ public class Program
                             {
                                 string name = j["name"].ToString().Equals("master") ? "1.16" : (string)j["name"];
                                 Console.WriteLine($"Downloading {name}...");
-                                FileStream stream = new(Path.Combine(templates, $"{name}.zip"), FileMode.OpenOrCreate);
-                                responseMessage.Content.CopyToAsync(stream).Wait();
-                                stream.Flush();
-                                stream.Dispose();
-                                stream.Close();
+                                responseMessage.Content.CopyToAsync(new FileStream(Path.Combine(templates, $"{name}.zip"), FileMode.OpenOrCreate)).Wait();
                             }
                             else
                             {
@@ -301,11 +297,8 @@ public class Program
         File.WriteAllText(java_file, java);
         Thread.Sleep(500);
         Console.WriteLine("Cleaning...");
-        //Directory.Delete(Path.Combine(baseDirectory, "src", "main", "resources", "assets", "modid"), true);
-        //Directory.Delete(Path.Combine(baseDirectory, "src", "main", "java", "net"), true);
-
-
-
+        Directory.Delete(Path.Combine(baseDirectory, "src", "main", "resources", "assets", "modid"), true);
+        Directory.Delete(Path.Combine(baseDirectory, "src", "main", "java", "net"), true);
         // Gradlew Commands
         Console.WriteLine($"Building Environment for {ide}");
         string gradlew = Path.GetFullPath(Path.Combine(baseDirectory, "gradlew"));
