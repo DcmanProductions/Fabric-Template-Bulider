@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VZiwyhkl6B1zd8d8dlDSXtlI0NBRRT1fyq1WfPEXnbVRYuiDvrO1Nqlo7m8RaIx2UxBPNxhIdsXApmRIMsJ7ug==",
+  "dgSpecHash": "wv1vDK7Kg2HdYCx1VdE5Ye476zRIttiYDtcs2RwOFXdTsKfOZbUfNAq+uRibz8LA4tWjBoVhb75Gy/+Ej1ZSYg==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\Visual Studio Workspace\\C++\\Desktop App\\FabricTemplateBuilder\\FabricTemplateBuilder.csproj",
+  "projectFilePath": "D:\\Workspace\\Visual Studio Workspace\\C#\\Console Apps\\FabricTemplateBuilder\\FabricTemplateBuilder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drew_\\.nuget\\packages\\chaselabs.configuration\\0.1.4\\chaselabs.configuration.0.1.4.nupkg.sha512",
     "C:\\Users\\drew_\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
