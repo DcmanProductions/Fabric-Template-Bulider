@@ -1,2 +1,0 @@
-D:\Workspace\Visual Studio Workspace\C++\Desktop App\FabricTemplateBuilder\publish\FabricTemplateBuilder.pdb
-D:\Workspace\Visual Studio Workspace\C++\Desktop App\FabricTemplateBuilder\publish\FabricTemplateBuilder.exe
